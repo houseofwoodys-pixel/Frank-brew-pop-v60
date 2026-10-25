@@ -1,0 +1,26 @@
+FRANK’S V60 — COFFEE LAB
+========================
+
+La tua web app personale per il V60, con un’identità grafica pop e
+un monogramma FV. Tutti i calcoli della versione precedente sono
+invariati: dosi, rapporti, bloom, versate, lotti ed estrazione EY.
+
+PUBBLICAZIONE SU GITHUB PAGES
+1. Apri il repository GitHub già creato (puoi mantenere il suo nome).
+2. Sostituisci i file esistenti con quelli di questa cartella:
+   index.html, manifest.webmanifest, sw.js, icon-180.png,
+   icon-192.png, icon-512.png (icon.svg facoltativa).
+3. Se è un nuovo repository, Settings > Pages > Deploy from a branch,
+   scegli main e /(root), poi Save.
+4. Apri il link GitHub Pages in Safari sull’iPhone.
+5. Condividi > Aggiungi alla schermata Home > Apri come app web.
+
+IMPORTANTE SE HAI GIÀ INSTALLATO BREW POP
+Il nome e l’icona nella Home possono rimanere quelli precedenti:
+rimuovi il vecchio collegamento e aggiungi di nuovo Frank’s V60.
+In Safari, se vedi ancora la versione vecchia, ricarica la pagina:
+il service worker usa una nuova cache, franks-v60-v2.
+
+Il sito resta pubblico su GitHub Pages. Per l’uso offline, visita
+prima la web app online: iOS può gestire o eliminare la cache.
+Non è presente alcun timer: il file mostra solo gli intervalli.

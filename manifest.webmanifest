@@ -1,0 +1,25 @@
+{
+  "name": "Frank's V60 · Coffee Lab",
+  "short_name": "Frank's V60",
+  "description": "Il laboratorio personale V60 di Frank: ricette adattive, bloom e versate.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F8F1E7",
+  "theme_color": "#F8F1E7",
+  "lang": "it",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<rect width="512" height="512" rx="110" fill="#FF835D"/>
+<circle cx="414" cy="105" r="63" fill="#FBE385"/>
+<path d="M414 72v66M381 105h66" stroke="#292122" stroke-width="11" stroke-linecap="round"/>
+<rect x="48" y="50" width="305" height="177" rx="42" fill="#BFAAFE" stroke="#292122" stroke-width="13" transform="rotate(-5 200 140)"/>
+<text x="82" y="178" font-family="DejaVu Sans,Arial,sans-serif" font-size="116" font-weight="900" letter-spacing="-14" fill="#292122">FV</text>
+<ellipse cx="266" cy="432" rx="146" ry="18" fill="#D96B59"/>
+<path d="M182 319h169l-19 92c-5 25-33 33-66 33s-64-8-69-33z" fill="#FFE7CD" stroke="#292122" stroke-width="15" stroke-linejoin="round"/>
+<path d="M353 344c57-8 62 62-1 62" fill="none" stroke="#292122" stroke-width="15" stroke-linecap="round"/>
+<path d="M137 247h260l-77 122H211z" fill="#D9CCFF" stroke="#292122" stroke-width="16" stroke-linejoin="round"/>
+<ellipse cx="267" cy="248" rx="130" ry="30" fill="#EEE5FF" stroke="#292122" stroke-width="16"/>
+<ellipse cx="267" cy="253" rx="92" ry="13" fill="#6E4946"/>
+<path d="M222 298l44 55m45-54-41 54" stroke="#8A70D3" stroke-width="12" stroke-linecap="round"/>
+</svg>
