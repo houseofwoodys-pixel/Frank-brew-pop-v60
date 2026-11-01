@@ -1,7 +1,7 @@
 {
   "name": "Frank's V60 · Coffee Lab",
   "short_name": "Frank's V60",
-  "description": "Il laboratorio personale V60 di Frank: ricette adattive, bloom e versate.",
+  "description": "Frank’s V60 · Brew Science: ricetta adattiva, flusso, diagnostica sensoriale e riferimenti personali basati sui principi di Gagné e Lingle.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

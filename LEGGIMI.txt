@@ -1,26 +1,19 @@
-FRANK’S V60 — COFFEE LAB
-========================
+FRANK’S V60 — BREW SCIENCE v5
 
-La tua web app personale per il V60, con un’identità grafica pop e
-un monogramma FV. Tutti i calcoli della versione precedente sono
-invariati: dosi, rapporti, bloom, versate, lotti ed estrazione EY.
+Basato sui principi di The Physics of Filter Coffee (Jonathan Gagné, 2020) e The Coffee Brewing Handbook (Ted R. Lingle, 2011).
 
-PUBBLICAZIONE SU GITHUB PAGES
-1. Apri il repository GitHub già creato (puoi mantenere il suo nome).
-2. Sostituisci i file esistenti con quelli di questa cartella:
-   index.html, manifest.webmanifest, sw.js, icon-180.png,
-   icon-192.png, icon-512.png (icon.svg facoltativa).
-3. Se è un nuovo repository, Settings > Pages > Deploy from a branch,
-   scegli main e /(root), poi Save.
-4. Apri il link GitHub Pages in Safari sull’iPhone.
-5. Condividi > Aggiungi alla schermata Home > Apri come app web.
+CARICA SU GITHUB PAGES: inserisci questi file nella root del repository, sostituendo i precedenti. Pubblica via Settings → Pages → Deploy from a branch → main / (root). Su iPhone aggiorna dal sito e, se necessario, rimuovi e riaggiungi la web app per aggiornare la cache.
 
-IMPORTANTE SE HAI GIÀ INSTALLATO BREW POP
-Il nome e l’icona nella Home possono rimanere quelli precedenti:
-rimuovi il vecchio collegamento e aggiungi di nuovo Frank’s V60.
-In Safari, se vedi ancora la versione vecchia, ricarica la pagina:
-il service worker usa una nuova cache, franks-v60-v2.
+COSA CAMBIA
+- Diagnosi: tempo, sensazione, flusso osservato, bagnatura e (se misurata) EY apparente.
+- Distinzione tra riferimento temporale operativo e vera misura EY: nessuna equazione predice il drenaggio dal solo peso o macinatura.
+- Storico locale di tazze piacevoli con caffè/lotto e parametri coincidenti: da 3 prove viene usata una fascia personale descrittiva (non un intervallo statistico di confidenza). Salvataggio solo su questo browser/dispositivo.
+- Profili termici: conservativo (96/94/92°C) e alternativa personale dell’autore Gagné (99/94/88°C). Non sono set-point scientificamente ottimali.
+- Osservazioni su materiali dripper, bypass, filtro, fines, pre-infusione, alcalinità e durezza.
+- EY apparente calcolata da massa bevanda e TDS: il liquido trattenuto nel letto richiederebbe altre misure per stimare la vera EY media in percolazione.
 
-Il sito resta pubblico su GitHub Pages. Per l’uso offline, visita
-prima la web app online: iOS può gestire o eliminare la cache.
-Non è presente alcun timer: il file mostra solo gli intervalli.
+COSA NON CAMBIA: design pop, icona FV60, modalità dose/tazze, ratio, bloom, piani delle versate, lotti multipli, copia, TDS ed EY. Nessun timer (usi la bilancia).
+
+FONTI: Gagné 2020, The Physics of Filter Coffee (capp. 1–7, 10); Lingle 2011, The Coffee Brewing Handbook (capp. 1–8).
+
+NOTA: non è collegato a Notion. I riferimenti locali sono relativi alla stessa ricetta e non identificano il chicco: usa sempre lo stesso caffè quando li registri.
